@@ -8,5 +8,5 @@ doc = Nokogiri::HTML(html)
 courses = doc.css(".htitle-3Kf9MY")
 
 courses.each do |course|
-  puts course.text
+  puts course
 end
