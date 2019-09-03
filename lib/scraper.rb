@@ -5,7 +5,7 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(html)
 
-p doc.css(".title-3Kf9MY")[1].attributes
+p doc.css(".title-3Kf9MY")[1].children
 
 # courses.each do |course|
 #   puts course.text.strip
